@@ -71,19 +71,19 @@ Learning Goals
 
 
 
-| Method | Endpoint       | Description        |
+| Method | Endpoint          | Description        |
 
-|--------|--------------|--------------------|
+|--------|-------------------|--------------------|
 
-| GET    | /users       | Get all users      |
+| GET    | /users            | Get all users      |
 
-| GET    | /users/{id}  | Get user by ID     |
+| GET    | /users/{user_id}  | Get user by ID     |
 
-| POST   | /users       | Create new user    |
+| POST   | /users            | Create new user    |
 
-| PUT    | /users/{id}  | Update user        |
+| PUT    | /users/{user_id}  | Update user        |
 
-| DELETE | /users/{id}  | Delete user        |
+| DELETE | /users/{user_id}  | Delete user        |
 
 
 
