@@ -25,5 +25,3 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints
-
-app/main_old.py
