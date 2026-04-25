@@ -91,6 +91,11 @@ Learning Goals
 
 
 
+Headers
+
+x-api-key: my-secret-api-key
+
+
 \## ▶️ Run Locally
 
 
@@ -101,9 +106,4 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload
 
-
-
-Headers
-
-x-api-key: my-secret-api-key
 
