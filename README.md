@@ -33,6 +33,9 @@ app/
     └── item.py
 
 ## Run
+
+pip install -r requirements.txt
+
 uvicorn app.main:app --reload
 
 ## Test
@@ -42,100 +45,4 @@ Headers
 
 x-api-key: my-secret-api-key
 
-<<<<<<< HEAD
-=======
-Learning Goals
 
-* Understand FastAPI async routes
-* Use Pydantic models
-* Implement CRUD operations
-* Work with dependencies
-
-
-
-
-
-\## 📂 Features
-
-
-
-\- Create user/item
-
-\- Read users/items
-
-\- Update user/item
-
-\- Delete user/item
-
-\- Pagination support
-
-\- API Key header validation
-
-
-
-\---
-
-
-
-\## ⚙️ Tech Stack
-
-
-
-\- FastAPI
-
-\- Pydantic
-
-\- Uvicorn
-
-
-
-\---
-
-
-
-\## 📌 Example API Endpoints for user
-
-
-
-| Method | Endpoint          | Description        |
-
-|--------|-------------------|--------------------|
-
-| GET    | /users            | Get all users      |
-
-| GET    | /users/{user_id}  | Get user by ID     |
-
-| POST   | /users            | Create new user    |
-
-| PUT    | /users/{user_id}  | Update user        |
-
-| DELETE | /users/{user_id}  | Delete user        |
-
-
-
-\---
-
-
-
-Headers
-
-x-api-key: my-secret-api-key
-
-
-\## ▶️ Run Locally
-
-
-
-```bash
->>>>>>> 8c52892d29db24e2756294a0da6f12dcf60b070f
-
-pip install -r requirements.txt
-
-uvicorn main:app --reload
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 8c52892d29db24e2756294a0da6f12dcf60b070f
