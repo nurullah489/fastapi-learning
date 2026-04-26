@@ -1,23 +1,49 @@
-\# FastAPI Learning Project 🚀
-
-
+# FastAPI Learning Project 🚀
+# FastAPI CRUD Template
 
 This is a beginner-friendly FastAPI project demonstrating async CRUD operations using:
 
 
+A clean, production-structured FastAPI template with:
+- APIRouter with prefix and tags
+- Pydantic v2 models (separate models/ folder)
+- Dependency injection (API key, pagination)
+- Background tasks
+- In-memory store (replace with DB of your choice)
+
+
+# Tech 
 
 * Python 3.12
 * FastAPI
 * Pydantic
 * Async programming
 * Fake in-memory database (list of dictionaries)
+* Uvicorn
 
+## Structure
+app/
+├── main.py
+├── dependencies.py
+├── routers/
+│   ├── users.py
+│   └── items.py
+└── models/
+    ├── user.py
+    └── item.py
 
+## Run
+uvicorn app.main:app --reload
 
-\---
+## Test
+Visit http://127.0.0.1:8000/docs
 
+Headers
 
+x-api-key: my-secret-api-key
 
+<<<<<<< HEAD
+=======
 Learning Goals
 
 * Understand FastAPI async routes
@@ -91,19 +117,25 @@ Learning Goals
 
 
 
+Headers
+
+x-api-key: my-secret-api-key
+
+
 \## ▶️ Run Locally
 
 
 
 ```bash
+>>>>>>> 8c52892d29db24e2756294a0da6f12dcf60b070f
 
 pip install -r requirements.txt
 
 uvicorn main:app --reload
 
 
+<<<<<<< HEAD
 
-Headers
 
-x-api-key: my-secret-api-key
-
+=======
+>>>>>>> 8c52892d29db24e2756294a0da6f12dcf60b070f
